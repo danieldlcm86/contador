@@ -6,7 +6,6 @@ var botonReset = document.querySelector("#reset");
 var botonRandom = document.querySelector("#botonRandom");
 
 var contador = document.querySelector("#contador");
-var imgRandom = document.querySelector("#imgRandom");
 
 var valorContador = 0;
 
@@ -40,14 +39,4 @@ function reset(){
 }
 botonReset.addEventListener("click", reset);
 
-//Función para poner imagen
-function randomImg(){
-    const imagenRandom = document.createElement("img");
-    imagenRandom.src = "https://picsum.photos/500";
-    imagenRandom.alt= "Imagen random del día";
-
-    document.body.appendChild(imagenRandom);
-}
-
-botonRandom.addEventListener("click", randomImg);
 

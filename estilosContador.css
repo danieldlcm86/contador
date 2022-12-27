@@ -1,15 +1,13 @@
-body{
+#body, #general{
     background-color: black;
 }
 
 h1 {
-    background-color: black;
     color: white;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     padding: 5px;
     margin:20px;
-
 }
 
 .boton{
@@ -20,13 +18,13 @@ h1 {
     border: .25em solid var(--glow-color);
     padding: 1em 3em;
     color: var(--glow-color);
-    font-size: 15px;
+    font-size: 17px;
     font-weight: bold;
     background-color: var(--btn-color);
     border-radius: 1em;
     outline: none;
     box-shadow: 0 0 1em .25em var(--glow-color),
-        0 0 4em 1em var(--glow-spread-color),
+        0 0 1em 1em var(--glow-spread-color),
         inset 0 0 .75em .25em var(--glow-color);
     text-shadow: 0 0 .5em var(--glow-color);
     position: relative;
@@ -57,7 +55,7 @@ h1 {
 
     button:active {
     box-shadow: 0 0 0.6em .25em var(--glow-color),
-            0 0 2.5em 2em var(--glow-spread-color),
+            0 0 1.5em 1em var(--glow-spread-color),
             inset 0 0 .5em .25em var(--glow-color);
 }
 
@@ -66,9 +64,5 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 200px;
-    margin:100px;
-}
-
-#imgRandom{
-    align-items: center;
+    margin:0px;
 }
